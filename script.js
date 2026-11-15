@@ -3,13 +3,10 @@
    ========================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
-  initLoader();
   initNavbar();
   initMobileMenu();
   initActiveLinks();
   initScrollReveal();
-  initTyping();
-  initCounters();
   initWorkScroll();
   initBackToTop();
   initYear();

@@ -3,32 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#07090f" />
-  <meta name="description" content="Muhammad Yousaf — Shopify Developer & Computer Science graduate. Premium Shopify stores, custom themes, and conversion-focused commerce." />
+  <meta name="theme-color" content="#161513" />
+  <meta name="description" content="Muhammad Yousaf — Shopify Developer & Computer Science graduate. I build, fix and speed up Shopify stores: custom themes, sections, apps and conversion work." />
   <title>Muhammad Yousaf — Shopify Developer</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
 
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Loader -->
-  <div class="loader" id="loader">
-    <div class="loader-mark">◈</div>
-  </div>
-
   <!-- Navbar -->
   <header class="navbar" id="navbar">
     <div class="container nav-container">
       <a href="#home" class="logo">
-        <span class="logo-mark">◈</span>
-        <span class="logo-text">YOUSAF<span class="logo-dot">.</span>DEV</span>
+        <span class="logo-text">yousaf<span class="logo-dot">.</span>dev</span>
       </a>
 
       <nav>
@@ -44,7 +38,7 @@
       </nav>
 
       <div class="nav-actions">
-        <a href="#contact" class="btn btn-primary hide-mobile">Hire Me</a>
+        <a href="#contact" class="btn btn-primary hide-mobile">Hire me</a>
         <button class="hamburger" id="hamburger" aria-label="Toggle menu">
           <span></span><span></span><span></span>
         </button>
@@ -56,38 +50,32 @@
   <section class="hero" id="home">
     <div class="container hero-grid">
       <div class="hero-content">
-        <span class="chip">
-          <span class="pulse-dot"></span> Available for freelance projects
-        </span>
+        <p class="status"><span class="status-dot" aria-hidden="true"></span>Available for freelance projects</p>
 
         <h1 class="hero-title">
-          <span class="hero-eyebrow">Hi, I'm</span>
-          <span class="hero-name gradient-text">Muhammad Yousaf</span>
-          <span class="hero-typed">
-            <span class="typed-prefix">&gt;_</span>
-            <span id="typed" class="typed"></span>
-          </span>
+          <span class="hero-name">Muhammad Yousaf</span>
+          <span class="hero-role">builds, fixes and speeds up Shopify stores</span>
         </h1>
 
         <p class="hero-desc">
-          <strong>Shopify Developer</strong> &amp; <strong>CS graduate</strong> building
-          modern, conversion-focused commerce experiences — from custom Liquid themes
-          to fully bespoke storefronts.
+          Shopify developer and computer science graduate. Custom Liquid themes,
+          sections, apps and conversion work for brands that want a faster store
+          that sells more.
         </p>
 
         <div class="hero-buttons">
           <a href="#work" class="btn btn-primary">
-            View Projects <i class="fas fa-arrow-right"></i>
+            View projects <i class="fas fa-arrow-right" aria-hidden="true"></i>
           </a>
           <a href="#contact" class="btn btn-ghost">
-            <i class="fas fa-paper-plane"></i> Contact Me
+            Contact me
           </a>
         </div>
 
         <div class="hero-socials">
-          <a href="https://github.com/cy-crypto" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/choudhary-yousaf/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.fiverr.com/users/usuf007/" target="_blank" rel="noopener" aria-label="Fiverr"><i class="fas fa-briefcase"></i></a>
+          <a href="https://github.com/cy-crypto" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/choudhary-yousaf/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.fiverr.com/users/usuf007/" target="_blank" rel="noopener" aria-label="Fiverr"><i class="fas fa-briefcase" aria-hidden="true"></i></a>
         </div>
       </div>
 
@@ -100,7 +88,7 @@
             <div class="data-row"><span>Name</span><span>Muhammad Yousaf</span></div>
             <div class="data-row"><span>Role</span><span>Shopify Developer</span></div>
             <div class="data-row"><span>Degree</span><span>BS Computer Science</span></div>
-            <div class="data-row"><span>Status</span><span class="text-accent">● Available</span></div>
+            <div class="data-row"><span>Status</span><span class="data-status"><span class="status-dot" aria-hidden="true"></span>Available</span></div>
           </div>
         </div>
       </div>
@@ -111,44 +99,42 @@
   <section class="section" id="about">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">// About</span>
-        <h2 class="section-title">A developer at the<br><span class="gradient-text">intersection of code &amp; design</span></h2>
+        <span class="eyebrow">About</span>
+        <h2 class="section-title">A Shopify developer with a computer science degree</h2>
       </div>
 
       <div class="about-grid">
         <div class="about-content reveal">
           <p class="lead">
-            I'm a <strong>Shopify Developer</strong> and <strong>Computer Science graduate</strong>
-            with a passion for clean code, pixel-perfect design, and the craft of building
-            commerce that actually converts.
+            I'm a Shopify developer and computer science graduate. I care about clean code,
+            careful design and stores that turn visitors into customers.
           </p>
           <p>
-            From custom Liquid themes to fully bespoke storefronts, I've helped brands
-            across 20+ countries launch, scale, and optimize. My CS background gives me
-            an edge: I don't just ship pixels — I architect for performance, search,
-            and the long-term health of the codebase.
+            From custom Liquid themes to fully custom storefronts, I've helped brands
+            in 20+ countries launch, grow and fix their stores. My CS background means
+            I build for speed, search and a codebase that stays easy to work on.
           </p>
           <p>
-            <strong>Focus:</strong> speed, accessibility, conversion, and an experience
-            your customers actually enjoy.
+            Focus: speed, accessibility, conversion and a store your customers
+            enjoy using.
           </p>
         </div>
 
         <div class="about-stats reveal">
           <div class="stat-card">
-            <div class="stat-num"><span class="counter" data-target="5">0</span>+</div>
-            <div class="stat-label">Years Experience</div>
+            <div class="stat-num">5+</div>
+            <div class="stat-label">Years of experience</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num"><span class="counter" data-target="120">0</span>+</div>
-            <div class="stat-label">Shopify Projects</div>
+            <div class="stat-num">120+</div>
+            <div class="stat-label">Shopify projects</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num"><span class="counter" data-target="85">0</span>+</div>
-            <div class="stat-label">Happy Clients</div>
+            <div class="stat-num">85+</div>
+            <div class="stat-label">Happy clients</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num"><span class="counter" data-target="20">0</span>+</div>
+            <div class="stat-num">20+</div>
             <div class="stat-label">Countries</div>
           </div>
         </div>
@@ -160,9 +146,9 @@
   <section class="section section-alt" id="skills">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">// Skills</span>
-        <h2 class="section-title">Technical <span class="gradient-text">toolkit</span></h2>
-        <p class="section-sub">Tools and technologies I use every day to ship great Shopify experiences.</p>
+        <span class="eyebrow">Skills</span>
+        <h2 class="section-title">Tools I work with</h2>
+        <p class="section-sub">What I use day to day on Shopify projects</p>
       </div>
 
       <div class="skills-grid">
@@ -176,7 +162,7 @@
         <div class="skill-card reveal"><i class="fas fa-gauge-high"></i><span>Speed</span></div>
         <div class="skill-card reveal"><i class="fas fa-magnifying-glass-chart"></i><span>SEO</span></div>
         <div class="skill-card reveal"><i class="fab fa-git-alt"></i><span>Git</span></div>
-        <div class="skill-card reveal"><i class="fab fa-github"></i><span>GitHub</span></div>
+        <div class="skill-card reveal"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></div>
         <div class="skill-card reveal"><i class="fas fa-mobile-screen"></i><span>Responsive</span></div>
       </div>
     </div>
@@ -186,56 +172,56 @@
   <section class="section" id="services">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">// Services</span>
-        <h2 class="section-title">What I <span class="gradient-text">build</span></h2>
-        <p class="section-sub">End-to-end Shopify services to help your brand grow online.</p>
+        <span class="eyebrow">Services</span>
+        <h2 class="section-title">What I build</h2>
+        <p class="section-sub">Shopify work I take on, from new stores to small fixes</p>
       </div>
 
       <div class="services-grid">
-        <div class="service-card glass-card reveal">
+        <div class="service-card reveal">
           <div class="service-icon"><i class="fab fa-shopify"></i></div>
-          <h3>Store Development</h3>
-          <p>Full-stack Shopify stores engineered for speed, design, and conversion.</p>
+          <h3>Store development</h3>
+          <p>New Shopify stores built for speed, clear design and sales.</p>
         </div>
-        <div class="service-card glass-card reveal">
+        <div class="service-card reveal">
           <div class="service-icon"><i class="fas fa-paintbrush"></i></div>
-          <h3>Theme Customization</h3>
-          <p>Pixel-perfect adjustments to match your brand down to the last detail.</p>
+          <h3>Theme customization</h3>
+          <p>Theme changes that match your brand, down to spacing and type.</p>
         </div>
-        <div class="service-card glass-card reveal">
+        <div class="service-card reveal">
           <div class="service-icon"><i class="fas fa-puzzle-piece"></i></div>
-          <h3>Custom Sections</h3>
-          <p>Reusable Liquid sections &amp; blocks for merchant-friendly editing.</p>
+          <h3>Custom sections</h3>
+          <p>Reusable Liquid sections and blocks you can edit in the theme editor.</p>
         </div>
-        <div class="service-card glass-card reveal">
+        <div class="service-card reveal">
           <div class="service-icon"><i class="fas fa-rocket"></i></div>
-          <h3>Landing Pages</h3>
-          <p>High-converting landing pages that maximize ROAS from day one.</p>
+          <h3>Landing pages</h3>
+          <p>Pages for campaigns and product launches, built to turn ad clicks into orders.</p>
         </div>
-        <div class="service-card glass-card reveal">
+        <div class="service-card reveal">
           <div class="service-icon"><i class="fas fa-gauge-high"></i></div>
-          <h3>Speed Optimization</h3>
-          <p>Boost Core Web Vitals, PageSpeed, and Time-to-Interactive.</p>
+          <h3>Speed optimization</h3>
+          <p>Better Core Web Vitals and PageSpeed scores, and pages that load faster.</p>
         </div>
-        <div class="service-card glass-card reveal">
+        <div class="service-card reveal">
           <div class="service-icon"><i class="fas fa-plug"></i></div>
-          <h3>App Integration</h3>
-          <p>Klaviyo · Judge.me · Recharge · Bundles · Subscriptions.</p>
+          <h3>App integration</h3>
+          <p>Klaviyo, Judge.me, Recharge, bundles and subscriptions.</p>
         </div>
-        <div class="service-card glass-card reveal">
+        <div class="service-card reveal">
           <div class="service-icon"><i class="fas fa-bug"></i></div>
-          <h3>Bug Fixing</h3>
-          <p>Quick, surgical fixes for theme bugs and broken layouts.</p>
+          <h3>Bug fixing</h3>
+          <p>Quick fixes for theme bugs and broken layouts.</p>
         </div>
-        <div class="service-card glass-card reveal">
+        <div class="service-card reveal">
           <div class="service-icon"><i class="fas fa-arrow-right-arrow-left"></i></div>
-          <h3>Store Migration</h3>
-          <p>Seamless migration from WooCommerce, Magento, or BigCommerce.</p>
+          <h3>Store migration</h3>
+          <p>Moving stores from WooCommerce, Magento or BigCommerce to Shopify.</p>
         </div>
-        <div class="service-card glass-card reveal">
+        <div class="service-card reveal">
           <div class="service-icon"><i class="fas fa-screwdriver-wrench"></i></div>
           <h3>Maintenance</h3>
-          <p>Ongoing support, updates, and improvements post-launch.</p>
+          <p>Ongoing support, updates and improvements after launch.</p>
         </div>
       </div>
     </div>
@@ -245,9 +231,9 @@
   <section class="section section-alt work-section" id="work">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">// Selected Work</span>
-        <h2 class="section-title"> Some of My Recent <span class="gradient-text">projects</span></h2>
-        <p class="section-sub">Scroll to explore — or swipe sideways on mobile.</p>
+        <span class="eyebrow">Selected work</span>
+        <h2 class="section-title">Recent projects</h2>
+        <p class="section-sub">Scroll to explore, or swipe sideways on mobile</p>
       </div>
     </div>
 
@@ -262,7 +248,7 @@
             <h3>Lilly Serve</h3>
             <p>Built a custom booking system with Supabase, a Node.js backend, an admin panel, and booking logic tailored to the store's workflow.</p>
             <div class="work-stack"><span>Shopify</span><span>Liquid</span><span>JS</span></div>
-            <a href="https://lilyserve.com" target="_blank" rel="noopener" class="btn btn-ghost btn-full">Visit <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            <a href="https://lilyserve.com" class="work-link" target="_blank" rel="noopener">lilyserve.com <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
           </div>
         </article>
 
@@ -275,7 +261,7 @@
             <h3>KoshaFit</h3>
             <p>Helped push the store past $600K+ in sales by improving conversion rate, adding smarter deals and upsells, and tightening the overall shopping experience.</p>
             <div class="work-stack"><span>Shopify</span><span>Recharge</span><span>Klaviyo</span></div>
-            <a href="https://koshafit.com/" target="_blank" rel="noopener" class="btn btn-ghost btn-full">Visit <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            <a href="https://koshafit.com/" class="work-link" target="_blank" rel="noopener">koshafit.com <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
           </div>
         </article>
 
@@ -288,7 +274,7 @@
             <h3>EziSolutions</h3>
             <p>Designed and built a free website of 20 online calculators (seller fees, ROAS, LTV, BMI, VAT, loans). Every result shows the exact sum behind it, and fees are checked against each company's own pricing page.</p>
             <div class="work-stack"><span>Python</span><span>JS</span><span>Cloudflare</span></div>
-            <a href="https://ezisolutions.online" class="btn btn-ghost btn-full" target="_blank" rel="noopener">Visit <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            <a href="https://ezisolutions.online" class="work-link" target="_blank" rel="noopener">ezisolutions.online <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
           </div>
         </article>
 
@@ -301,7 +287,7 @@
             <h3>HIDR</h3>
             <p>Designed the complete store from the ground up, focusing on structure, visual balance, and a clean shopping flow.</p>
             <div class="work-stack"><span>HTML</span><span>CSS</span><span>GSAP</span></div>
-            <a href="https://housedripdoctor.com/" target="_blank" rel="noopener" class="btn btn-ghost btn-full">Visit <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            <a href="https://housedripdoctor.com/" class="work-link" target="_blank" rel="noopener">housedripdoctor.com <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
           </div>
         </article>
 
@@ -314,7 +300,7 @@
             <h3>HomePatterns</h3>
             <p>Added filters, custom metafield-driven logic, and extra functionality to make browsing easier and the storefront more useful.</p>
             <div class="work-stack"><span>Shopify</span><span>Liquid</span><span>Alpine</span></div>
-            <a href="https://homepatterns.com/" target="_blank" rel="noopener" class="btn btn-ghost btn-full">Visit <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            <a href="https://homepatterns.com/" class="work-link" target="_blank" rel="noopener">homepatterns.com <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
           </div>
         </article>
       </div>
@@ -325,8 +311,8 @@
   <section class="section" id="journey">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">// Journey</span>
-        <h2 class="section-title">My <span class="gradient-text">path</span></h2>
+        <span class="eyebrow">Journey</span>
+        <h2 class="section-title">My path</h2>
       </div>
 
       <div class="timeline">
@@ -388,7 +374,7 @@
             <span class="timeline-date">2018 — 2019</span>
             <h3>Junior Web Developer</h3>
             <h4>StartHub</h4>
-            <p>Cut my teeth on landing pages, learned the craft of HTML, CSS, and JavaScript.</p>
+            <p>Started on landing pages and learned HTML, CSS and JavaScript on real projects.</p>
           </div>
         </div>
       </div>
@@ -399,46 +385,13 @@
   <section class="section section-alt" id="reviews">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">// Reviews</span>
-        <h2 class="section-title">What clients <span class="gradient-text">say</span></h2>
+        <span class="eyebrow">Reviews</span>
+        <h2 class="section-title">Client reviews are on Fiverr</h2>
+        <p class="section-sub">Read what clients wrote after their orders, on my Fiverr profile</p>
       </div>
 
-      <div class="reviews-grid">
-        <div class="review-card glass-card reveal">
-          <div class="review-stars">★★★★★</div>
-          <p>"The booking flow for <strong>Lilly Serve</strong> finally feels solid. He connected Supabase, the Node.js backend, and admin logic in a way that made the whole system easy to manage."</p>
-          <div class="review-author">
-            <img src="https://i.pravatar.cc/100?img=12" alt="" />
-            <div><strong>Sarah Johnson</strong><span>Operations Lead, Lilly Serve</span></div>
-          </div>
-        </div>
-
-        <div class="review-card glass-card reveal">
-          <div class="review-stars">★★★★★</div>
-          <p>"<strong>KoshaFit</strong> was the turning point for us. The CRO improvements, upsells, and store tuning helped push us past <strong>$600K+ in sales</strong>."</p>
-          <div class="review-author">
-            <img src="https://i.pravatar.cc/100?img=32" alt="" />
-            <div><strong>Michael Chen</strong><span>Founder, KoshaFit</span></div>
-          </div>
-        </div>
-
-        <div class="review-card glass-card reveal">
-          <div class="review-stars">★★★★★</div>
-          <p>"He made <strong>501ORIGNAL</strong> feel complete again with bundles, custom sections, and the UI fixes we needed to clean up the experience."</p>
-          <div class="review-author">
-            <img src="https://i.pravatar.cc/100?img=47" alt="" />
-            <div><strong>Emma Williams</strong><span>Brand Manager, 501ORIGNAL</span></div>
-          </div>
-        </div>
-
-        <div class="review-card glass-card reveal">
-          <div class="review-stars">★★★★★</div>
-          <p>"The <strong>HomePatterns</strong> work made browsing so much easier. Filters, metafield logic, and the extra functionality all came together cleanly."</p>
-          <div class="review-author">
-            <img src="https://i.pravatar.cc/100?img=68" alt="" />
-            <div><strong>David Park</strong><span>Product Owner, HomePatterns</span></div>
-          </div>
-        </div>
+      <div class="reviews-cta reveal">
+        <a href="https://www.fiverr.com/users/usuf007/" class="btn btn-ghost" target="_blank" rel="noopener">Read reviews on Fiverr <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
       </div>
     </div>
   </section>
@@ -447,33 +400,33 @@
   <section class="section" id="contact">
     <div class="container">
       <div class="section-head reveal">
-        <span class="eyebrow">// Contact</span>
-        <h2 class="section-title">Let's <span class="gradient-text">build</span> something</h2>
+        <span class="eyebrow">Contact</span>
+        <h2 class="section-title">Let's build something</h2>
         <p class="section-sub">Have a project in mind? Send a message and I'll reply within 24 hours.</p>
       </div>
 
       <div class="contact-grid">
-        <div class="contact-info glass-card reveal">
-          <h3>Channels</h3>
+        <div class="contact-info reveal">
+          <h3>Get in touch</h3>
           <ul class="contact-list">
             <li>
-              <i class="fas fa-envelope"></i>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
               <div><span>Email</span><a href="mailto:cyousaf54@gmail.com">cyousaf54@gmail.com</a></div>
             </li>
             <li>
-              <i class="fas fa-phone"></i>
+              <i class="fas fa-phone" aria-hidden="true"></i>
               <div><span>Phone</span><a href="tel:+923252975103">+92 325 2975103</a></div>
             </li>
             <li>
-              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
               <div><span>LinkedIn</span><a href="https://www.linkedin.com/in/choudhary-yousaf/" target="_blank" rel="noopener">/in/choudhary-yousaf</a></div>
             </li>
             <li>
-              <i class="fab fa-github"></i>
+              <i class="fab fa-github" aria-hidden="true"></i>
               <div><span>GitHub</span><a href="https://github.com/cy-crypto" target="_blank" rel="noopener">/cy-crypto</a></div>
             </li>
             <li>
-              <i class="fas fa-briefcase"></i>
+              <i class="fas fa-briefcase" aria-hidden="true"></i>
               <div><span>Fiverr</span><a href="https://www.fiverr.com/users/usuf007/" target="_blank" rel="noopener">/usuf007</a></div>
             </li>
           </ul>
@@ -488,10 +441,9 @@
       <div class="footer-grid">
         <div>
           <a href="#home" class="logo">
-            <span class="logo-mark">◈</span>
-            <span class="logo-text">YOUSAF<span class="logo-dot">.</span>DEV</span>
+            <span class="logo-text">yousaf<span class="logo-dot">.</span>dev</span>
           </a>
-          <p class="footer-tag">Premium Shopify development for ambitious brands.</p>
+          <p class="footer-tag">Shopify development for small and growing brands</p>
         </div>
         <div>
           <h4>Navigate</h4>
@@ -505,9 +457,9 @@
         <div>
           <h4>Connect</h4>
           <div class="social-icons">
-            <a href="https://github.com/cy-crypto" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/choudhary-yousaf/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.fiverr.com/users/usuf007/" target="_blank" rel="noopener" aria-label="Fiverr"><i class="fas fa-briefcase"></i></a>
+            <a href="https://github.com/cy-crypto" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/choudhary-yousaf/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.fiverr.com/users/usuf007/" target="_blank" rel="noopener" aria-label="Fiverr"><i class="fas fa-briefcase" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
@@ -518,7 +470,7 @@
   </footer>
 
   <button class="back-to-top" id="backToTop" aria-label="Back to top">
-    <i class="fas fa-arrow-up"></i>
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
   </button>
 
   <script src="script.js" defer></script>
